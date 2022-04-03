@@ -10,8 +10,9 @@ module.exports = {
       name: 'innercontainer02',
       filename: 'remoteEntry.js',
       exposes: {
-        './InnerContainer02': './src/index',
+        './InnerContainer02': './src/bootstrap',
       },
+      shared: ['faker'],
     }),
   ],
 };
